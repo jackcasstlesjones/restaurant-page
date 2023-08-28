@@ -1,4 +1,6 @@
-export function populateMenuPage() {
+import Menu from "../menu.png";
+
+function populateMenuPage() {
   const header = document.createElement("h1");
   const img = document.createElement("img");
   const info = document.createElement("p");
@@ -13,3 +15,5 @@ export function populateMenuPage() {
   div.appendChild(img);
   div.appendChild(info);
 }
+
+export { populateMenuPage, Menu };
