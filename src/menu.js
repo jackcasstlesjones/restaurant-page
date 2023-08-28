@@ -7,7 +7,7 @@ export function populateMenuPage() {
   div.innerHTML = "";
 
   header.textContent = "Our Menu";
-  img.src = "../menu.png";
+  img.src = "../menu.PNG";
   info.textContent = "lorem lorem";
   div.appendChild(header);
   div.appendChild(img);

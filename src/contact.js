@@ -7,7 +7,7 @@ export function populateContactPage() {
   div.innerHTML = "";
 
   header.textContent = "Contact Us";
-  img.src = "../location.png";
+  img.src = "../location.PNG";
   info.textContent = "delicious sammies";
 
   div.appendChild(header);
