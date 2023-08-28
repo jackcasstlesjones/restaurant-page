@@ -1,0 +1,25 @@
+img {
+  width: 800px;
+}
+
+div {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+  list-style: none;
+}
+
+li {
+  cursor: pointer;
+}
