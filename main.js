@@ -126,7 +126,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   populateContactPage: () => (/* binding */ populateContactPage)\n/* harmony export */ });\nfunction populateContactPage() {\n  const header = document.createElement(\"h1\");\n  const img = document.createElement(\"img\");\n  const info = document.createElement(\"p\");\n  const div = document.getElementById(\"content\");\n\n  div.innerHTML = \"\";\n\n  header.textContent = \"Contact Us\";\n  img.src = \"../location.PNG\";\n  info.textContent = \"delicious sammies\";\n\n  div.appendChild(header);\n  div.appendChild(img);\n  div.appendChild(info);\n}\n\n\n//# sourceURL=webpack://restaurant-page/./src/contact.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   Location: () => (/* reexport default export from named module */ _location_png__WEBPACK_IMPORTED_MODULE_0__),\n/* harmony export */   populateContactPage: () => (/* binding */ populateContactPage)\n/* harmony export */ });\n/* harmony import */ var _location_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../location.png */ \"./location.png\");\n\n\nfunction populateContactPage() {\n  const header = document.createElement(\"h1\");\n  const img = document.createElement(\"img\");\n  const info = document.createElement(\"p\");\n  const div = document.getElementById(\"content\");\n\n  div.innerHTML = \"\";\n\n  header.textContent = \"Contact Us\";\n  img.src = \"../location.PNG\";\n  info.textContent = \"delicious sammies\";\n\n  div.appendChild(header);\n  div.appendChild(img);\n  div.appendChild(info);\n}\n\n\n\n\n//# sourceURL=webpack://restaurant-page/./src/contact.js?");
 
 /***/ }),
 
@@ -136,7 +136,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   populateHomePage: () => (/* binding */ populateHomePage)\n/* harmony export */ });\nfunction populateHomePage() {\n  const header = document.createElement(\"h1\");\n  const img = document.createElement(\"img\");\n  const info = document.createElement(\"p\");\n  const div = document.getElementById(\"content\");\n\n  div.innerHTML = \"\";\n\n  header.textContent = \"Jack's Best Sandwich Shop\";\n  img.src = \"../sandwich.JPG\";\n  info.textContent =\n    \"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nihil sed, hic eos iste ullam voluptas voluptate, repudiandae non ipsa natus facere nemo. Non incidunt labore, sed distinctio enim vel?\";\n\n  div.appendChild(header);\n  div.appendChild(img);\n  div.appendChild(info);\n\n  console.log(\"hi\");\n}\n\n\n//# sourceURL=webpack://restaurant-page/./src/home.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   Sandwich: () => (/* reexport default export from named module */ _sandwich_jpg__WEBPACK_IMPORTED_MODULE_0__),\n/* harmony export */   populateHomePage: () => (/* binding */ populateHomePage)\n/* harmony export */ });\n/* harmony import */ var _sandwich_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../sandwich.jpg */ \"./sandwich.jpg\");\n\n\nfunction populateHomePage() {\n  const header = document.createElement(\"h1\");\n  const img = document.createElement(\"img\");\n  const info = document.createElement(\"p\");\n  const div = document.getElementById(\"content\");\n\n  div.innerHTML = \"\";\n\n  header.textContent = \"Jack's Best Sandwich Shop\";\n  img.src = \"../sandwich.JPG\";\n  info.textContent =\n    \"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nihil sed, hic eos iste ullam voluptas voluptate, repudiandae non ipsa natus facere nemo. Non incidunt labore, sed distinctio enim vel?\";\n\n  div.appendChild(header);\n  div.appendChild(img);\n  div.appendChild(info);\n\n  console.log(\"hi\");\n}\n\n\n\n\n//# sourceURL=webpack://restaurant-page/./src/home.js?");
 
 /***/ }),
 
@@ -156,7 +156,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hom
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   populateMenuPage: () => (/* binding */ populateMenuPage)\n/* harmony export */ });\nfunction populateMenuPage() {\n  const header = document.createElement(\"h1\");\n  const img = document.createElement(\"img\");\n  const info = document.createElement(\"p\");\n  const div = document.getElementById(\"content\");\n\n  div.innerHTML = \"\";\n\n  header.textContent = \"Our Menu\";\n  img.src = \"../menu.PNG\";\n  info.textContent = \"lorem lorem\";\n  div.appendChild(header);\n  div.appendChild(img);\n  div.appendChild(info);\n}\n\n\n//# sourceURL=webpack://restaurant-page/./src/menu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   populateMenuPage: () => (/* binding */ populateMenuPage)\n/* harmony export */ });\n/* harmony import */ var _menu_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../menu.png */ \"./menu.png\");\n\n\nfunction populateMenuPage() {\n  const header = document.createElement(\"h1\");\n  const img = document.createElement(\"img\");\n  const info = document.createElement(\"p\");\n  const div = document.getElementById(\"content\");\n\n  div.innerHTML = \"\";\n\n  header.textContent = \"Our Menu\";\n  img.src = \"../menu.PNG\";\n  info.textContent = \"lorem lorem\";\n  div.appendChild(header);\n  div.appendChild(img);\n  div.appendChild(info);\n}\n\n\n\n\n//# sourceURL=webpack://restaurant-page/./src/menu.js?");
 
 /***/ }),
 
@@ -167,6 +167,36 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"fc2b5060f7accec5cf74.ttf\";\n\n//# sourceURL=webpack://restaurant-page/./Roboto-Regular.ttf?");
+
+/***/ }),
+
+/***/ "./location.png":
+/*!**********************!*\
+  !*** ./location.png ***!
+  \**********************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"0ce39ffb3bc9516e1eae.png\";\n\n//# sourceURL=webpack://restaurant-page/./location.png?");
+
+/***/ }),
+
+/***/ "./menu.png":
+/*!******************!*\
+  !*** ./menu.png ***!
+  \******************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"e1b74f7ce570af09bd21.png\";\n\n//# sourceURL=webpack://restaurant-page/./menu.png?");
+
+/***/ }),
+
+/***/ "./sandwich.jpg":
+/*!**********************!*\
+  !*** ./sandwich.jpg ***!
+  \**********************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"9caf494d38e448afa8d4.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./sandwich.jpg?");
 
 /***/ })
 
