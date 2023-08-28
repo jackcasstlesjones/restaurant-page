@@ -7,11 +7,13 @@ export function populateHomePage() {
   div.innerHTML = "";
 
   header.textContent = "Jack's Best Sandwich Shop";
-  img.src = "../sandwich.jpg";
+  img.src = "../sandwich.JPG";
   info.textContent =
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nihil sed, hic eos iste ullam voluptas voluptate, repudiandae non ipsa natus facere nemo. Non incidunt labore, sed distinctio enim vel?";
 
   div.appendChild(header);
   div.appendChild(img);
   div.appendChild(info);
+
+  console.log("hi");
 }
