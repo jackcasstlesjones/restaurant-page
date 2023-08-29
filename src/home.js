@@ -1,6 +1,6 @@
 import Sandwich from "../sandwich.jpg";
 
-function populateHomePage() {
+export function populateHomePage() {
   const header = document.createElement("h1");
   const img = document.createElement("img");
   const info = document.createElement("p");
@@ -19,5 +19,3 @@ function populateHomePage() {
 
   console.log("hi");
 }
-
-export { populateHomePage, Sandwich };

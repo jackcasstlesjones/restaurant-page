@@ -11,4 +11,6 @@ homeBtn.addEventListener("click", populateHomePage);
 menuBtn.addEventListener("click", populateMenuPage);
 contactBtn.addEventListener("click", populateContactPage);
 
+console.log("hello");
+
 populateHomePage();
