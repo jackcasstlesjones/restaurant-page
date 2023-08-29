@@ -9,7 +9,7 @@ function populateContactPage() {
   div.innerHTML = "";
 
   header.textContent = "Contact Us";
-  img.src = "../location.PNG";
+  img.src = Location;
   info.textContent = "delicious sammies";
 
   div.appendChild(header);

@@ -9,11 +9,11 @@ function populateMenuPage() {
   div.innerHTML = "";
 
   header.textContent = "Our Menu";
-  img.src = "../menu.PNG";
+  img.src = Menu;
   info.textContent = "lorem lorem";
   div.appendChild(header);
   div.appendChild(img);
   div.appendChild(info);
 }
 
-export { populateMenuPage, Menu };
+export { populateMenuPage };
