@@ -1,6 +1,7 @@
 import { populateHomePage } from "./home.js";
 import { populateMenuPage } from "./menu.js";
 import { populateContactPage } from "./contact.js";
+
 import "./styles.css";
 
 const homeBtn = document.getElementById("home-button");
